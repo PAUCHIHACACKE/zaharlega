@@ -1,6 +1,6 @@
 .vd {
     width: 100%;
-    height: 50vh;
+    height: 94vh;
     position: relative;
     display: flex;
     align-items: end;
@@ -9,7 +9,7 @@
     
  .vd video {
      width: 100%;
-    height: 50vh;
+    height: 94vh;
         z-index: 1;
         position: absolute;
         left: 0;
