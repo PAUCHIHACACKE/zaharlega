@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+
+body {
+    background: linear-gradient(90deg, #fa9600 0%, #e260fc 100%);
+    font-family: Michroma, serif;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(182, 182, 182);
+}
+
+.clipart {
+    width: 60px;
+    padding-bottom: 5px;
+}
+
+.navbar-toggler {
+    background-color: rgb(243, 243, 243);
+    border: none;
+}
+
+.rightside {
+    margin-top: 33px;
+    
+}
+    
+.card {
+    background: linear-gradient(80deg,#260244 15%, #ff018d 25%);
+    color: rgb(223, 251, 255);
+}
+
+.textdeco {
+    color: #16047a;    
+}
+
+.menace {
+    margin-block: auto;
+}
+
+.giga {
+    margin-top: 480px;
+    font-size: larger;
+    font-family: cursive;
+    
+}  
+    
+.cetb {
+    width: 47px;
+    margin-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    animation: myAnim 3s ease 5s infinite normal none;
+}
+
+.ponos {
+    margin-top: 10px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    display: block
+    
+    
+} 
+ .ykrash {
+    text-decoration: none;
+ }
+
+ .reserve {
+    width: 110px;
+    
+ }
+
+ .abobus {
+    background-color: rgb(22, 22, 22);
+ }
+
+ @keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
